@@ -32,9 +32,9 @@
 
 
  function saveData(){
-    localStorage.setItem('Data',tasklist.innerHTML);
+   localStorage.setItem('Data',tasklist.innerHTML);
  }
  function showTask(){
-    tasklist.innerHTML=localStorage.getItem('Data');
+   tasklist.innerHTML=localStorage.getItem('Data');
  }
  showTask();
