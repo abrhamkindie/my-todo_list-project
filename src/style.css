@@ -9,8 +9,8 @@
 .container{
     background: linear-gradient(135deg,  #153677,#4e085f);
     padding: 10px;
- width:100%;
- min-height:100vh;
+      width:100%;
+      min-height:100vh;
 }
 ul li{
 user-select: none;
@@ -54,5 +54,4 @@ padding-right: 10px;
        }
        ul li span:hover{
         background-color:rgb(176, 173, 173);
-
        }
